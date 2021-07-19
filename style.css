@@ -8,9 +8,10 @@ html {
 #grid-container {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    width: 95%;
+    height: 95vh;
+    justify-content: center;
+    align-items: center;
 }
 
-div {
-    border: solid;
-    border-width: 1px;
-}
