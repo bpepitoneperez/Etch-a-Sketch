@@ -1,0 +1,16 @@
+html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+#grid-container {
+    display: flex;
+    flex-direction: row;
+}
+
+div {
+    border: solid;
+    border-width: 1px;
+}
