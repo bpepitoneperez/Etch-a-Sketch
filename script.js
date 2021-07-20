@@ -22,6 +22,7 @@ function draw (color, square) {
 }
 
 const slider = document.querySelector('#myRange');
+slider.step = 2;
 slider.addEventListener('change', function(e) {
     if (this.value * 4 != currentSize) {
         resizeGrid(this.value * 4);
